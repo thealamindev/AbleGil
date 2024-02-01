@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   margin:0 auto;
+   width: 1170px;
+}
+
+#kichu{
+    padding: 100px 0;
+    background: teal;
+}
+button .active{
+    background: teal;
+    color: tomato;
+}
+.filterable_cards{
+    display: flex;
+}
+.card{
+    width: 250px;
+}
+.card.hide{
+    display: none;
+}
+.card img{
+    width: 100%;
+}
+.filterable_cards{
+    margin-top: 50px;
+}
